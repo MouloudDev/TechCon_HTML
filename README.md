@@ -53,3 +53,31 @@ Repo:
 GitHub repository: TechCon_HTML
 Directory: techcon_website
 File: about.html
+
+
+2. Designing the Schedule Page for TechCon 2024 Conference Website
+mandatory
+Objective:
+Create the Schedule page (schedule.html) for TechCon 2024, providing a detailed and accessible timetable of events, sessions, and speakers, using a structured HTML table format.
+
+Requirements:
+Header:
+
+Include a <header> tag containing the page title “Schedule for TechCon 2024” displayed within an <h1> tag.
+Implement a consistent navigation menu as in previous pages using a <nav> tag, linking to Home, About, Register, and Contact.
+Main Content:
+
+Utilize a <main> tag to centralize the primary content of the schedule.
+Construct a detailed schedule using a <table>:
+Headers: Use <th> tags for columns such as “Time”, “Session”, and “Speaker”, applying scope attributes to clarify their relevance.
+Data Rows: Populate with <td> tags containing the specifics of each session.
+Caption: Include a <caption> that succinctly describes the table (e.g., “Detailed Schedule of Events for TechCon 2024”).
+Footer:
+
+Use a <footer> tag consistent with the rest of the website.
+Include copyright information similar to other pages.
+Repo:
+
+GitHub repository: TechCon_HTML
+Directory: techcon_website
+File: schedule.html
