@@ -20,15 +20,19 @@
         <main>
             <form>
                 <label for="name">Name</label>
-                <input type="text" id="name">
+                <input type="text" id="name" name="name" required>
+
                 <label for="email">Email</label>
-                <input type="email" id="email">
+                <input type="email" id="email" name="email" required>
+
                 <label for="password">Password</label>
-                <input type="password" id="password">
-                <input type="checkbox" id="terms&conditions">
-                <label for="terms&conditions">
+                <input type="password" id="password" name="password" required>
+
+                <input type="checkbox" id="terms" name="terms">
+                <label for="terms">
                     I agree to these <a href="#">Terms and Conditions</a>
                 </label>
+
                 <button type="submit">Register Now</button>
             </form>
         </main>
