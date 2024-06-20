@@ -81,3 +81,33 @@ Repo:
 GitHub repository: TechCon_HTML
 Directory: techcon_website
 File: schedule.html
+
+
+3. Building the Register Page for TechCon 2024 Conference Website
+mandatory
+Objective:
+Create the Register page (register.html) for TechCon 2024, designing a user-friendly and accessible registration form that collects essential attendee information.
+
+Requirements:
+Header:
+
+Include a <header> tag with the page title “Register for TechCon 2024” encapsulated in an <h1> tag.
+Implement the standard navigation menu using a <nav> tag, linking to Home, About, Schedule, and Contact.
+Main Content:
+
+Use a <main> tag for the central content.
+Design a registration form using a <form> tag:
+Field for Name: Include an <input> type=“text” for the attendee’s full name with a corresponding <label>.
+Field for Email: Incorporate an <input> type=“email” for email addresses to ensure proper formatting, paired with a <label>.
+Password Fields: Add fields for password and password confirmation using <input> type=“password”, each with labels explaining their purpose.
+Checkbox for Terms and Conditions: Provide a checkbox <input> type=“checkbox” for users to agree to the terms and conditions, clearly described alongside.
+Submit Button: Place a <button> type=“submit” to finalize registration, labeled appropriately (e.g., “Register Now”).
+Footer:
+
+Consistently use a <footer> tag across all pages.
+Repeat the copyright information found on other pages.
+Repo:
+
+GitHub repository: TechCon_HTML
+Directory: techcon_website
+File: register.html
